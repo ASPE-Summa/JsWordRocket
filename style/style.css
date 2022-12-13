@@ -1,0 +1,43 @@
+#myContainer {
+    width: 1000px;
+    height: 400px;
+    position: relative;
+    background-color: navy;
+    border-radius: 4px;
+    border: 2px solid;
+  }
+
+  #inputWordGuess{
+    width: 1000px;
+    background-color: darkslategray;
+    border: 2px solid;
+    border-radius: 4px;
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20pt;
+    padding: 0;
+    height: 100px;
+    text-align: center;
+  }
+
+  #myAnimation {
+    width: 200px;
+    height: 100px;
+    top: 50%;
+    position: absolute;
+  }
+
+  #myAnimation > img{
+    width: 100%;
+  height: auto;
+
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  }
+
+  #myWord{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
